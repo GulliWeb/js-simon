@@ -33,6 +33,7 @@ h1{
     text-align: center;
     font-size: 50px;
     color: lightgreen;
+    text-shadow: 0 0 5px #23d5ab;
 }
 
 .container{
@@ -66,6 +67,25 @@ h1{
     border: 1px solid #D16BA5;
 }
 
+.casual-numbers:hover, .user-input:hover{
+    background-color: gray;
+    font-weight: bold;
+}
+
+.casual-numbers:hover{
+    cursor: not-allowed;
+}
+
+.user-input:hover{
+    cursor: pointer;
+}
+    
+.btn-container{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
 button{
     display: block;
     padding: 10px 15px;
@@ -76,3 +96,12 @@ button{
     display: inline-block;
 }
 
+button:hover{
+    background-color: aquamarine;
+    font-weight: bold;
+    text-shadow: 0 0 2px #23d5ab;
+}
+
+button:active{
+    background-color: lightgreen;
+}

@@ -29,14 +29,9 @@ function guessRnd() {
       let numRnd = num
 
       for (let i = 0; i < num.length; i++) {
-        let userInput
-        // Controllo dati input utente 
-        do {
-            userInput = parseInt(prompt('Inserisci i cinque numeri che hai visto! numero' + (i + 1) ))            
-        } while (isNaN(userInput) || userInput == "" );
       // Controllo quali e quanti numeri l'utente ha indovinato
-          if (userInput == numRnd[i]) counter++
-          console.log(`Complimenti! hai indovinato ${counter} numeri !`)
+          if (userInput[i].value == numRnd[i]) counter++
       }   
+      console.log(`Complimenti! hai indovinato ${counter} numeri !`)
 }
 
