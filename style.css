@@ -29,11 +29,50 @@ body{
 /* Utils */
 
 /* Causl numbers cell */
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: lightgreen;
+}
+
+.container{
+    max-width: 600px;
+    margin: 20px auto;
+}
 .casual-numbers{
-    width: 50px;
-    height: 50px;
+    width: calc(100% / 6);
+    height: 80px;
     display: inline-block;
     text-align: center;
-    line-height: 50px;
-    border: 2px solid black;
+    font-size: 20px;
+    border-radius: 12px;
+    line-height: 80px;
+    background-color: white;
+    color: #D16BA5;
+    border: 1px solid #D16BA5;
 }
+
+.user-input{
+    margin-top: 20px;
+    width: calc(100% / 6);
+    height: 80px;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 12px;
+    line-height: 80px;
+    background-color: white;
+    color: #D16BA5;
+    border: 1px solid #D16BA5;
+}
+
+button{
+    display: block;
+    padding: 10px 15px;
+    margin: 20px 5px;
+    border-radius: 15px;
+    background-color: lightgreen;
+    color: #D16BA5;
+    display: inline-block;
+}
+
