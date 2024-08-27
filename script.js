@@ -33,6 +33,6 @@ function guessRnd() {
           if (userInput[i].value == numRnd[i]) counter++
       }   
       const result = document.getElementById('result')
-      result.innerText = `Complimenti! hai indovinato ${counter} numeri !`
+      result.innerText = `Complimenti, hai indovinato ${counter} numeri!`
 }
 
