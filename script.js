@@ -32,6 +32,7 @@ function guessRnd() {
       // Controllo quali e quanti numeri l'utente ha indovinato
           if (userInput[i].value == numRnd[i]) counter++
       }   
-      console.log(`Complimenti! hai indovinato ${counter} numeri !`)
+      const result = document.getElementById('result')
+      result.innerText = `Complimenti! hai indovinato ${counter} numeri !`
 }
 
